@@ -1,0 +1,221 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  /*overflow:hidden;*/
+}
+
+
+
+.background {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #4A474A),
+    color-stop(1, #F0F0F0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+
+
+.animationName {
+ height: 50%;
+width: 65%;
+position: absolute;
+top: 65px;
+left: 65px
+}
+
+.animationContact {
+ height: 50px;
+width: 50px;
+display: block;
+margin-left: 85px;
+margin-bottom: 50px;
+}
+
+
+embed {
+  pointer-events: none;
+}
+
+a {
+  color: black !important;
+  font-family: cursive;
+}
+
+a:hover {
+  color: silver !important;
+  background-color: transparent !important;
+}
+
+
+
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  color: silver;
+  width: 100%;
+  height: 100px;
+}
+
+
+.block {
+  height: 150px;
+  width: 200px;
+/*  border: 3px solid black;
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-image: linear-gradient(to bottom, #CECBCF 25%, #5B575C 64%);*/
+  display: inline-block;
+}
+
+.block:hover {
+  background-image: linear-gradient(to bottom, #CECBCF 25%, #5B575C 64%) !important;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.block img {
+  height: 80%;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 6.5%;
+}
+
+.block h5 {
+  color: silver;
+  padding: 0;
+  text-align: center;
+  padding-top: 7px;
+  padding-right: 2px;
+  margin: 0;
+}
+
+#flipbookContainer {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  margin-left: 150px;
+  top: 7.5%;
+  position: absolute;
+}
+
+#flipbook{
+    top: 5%;
+    width:600px;
+    height:450px;
+
+    /*margin: 0 !important;*/
+}
+
+#flipbook .page{
+    width:600px;
+    height:450px;
+    line-height:300px;
+    font-size:20px;
+    text-align:center;
+
+}
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .hard{
+    background:#ccc !important;
+    color:#333;
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    font-weight:bold;
+}
+
+#flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+
+}
+
+#flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+}
+
+#flipbook .shadow{
+  box-shadow: 11px 14px 51px 14px rgba(0,0,0,0.75);
+}
+
+.p1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("http://www.rainbowresource.com/products/052387.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.loose {
+  background: url("../images/loose.jpg");
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.backcover {
+  background-image: url("../images/backmarble.png");
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+}
+
+#kitchen {
+  border: 1px solid black;
+  /*border-radius: 3px;*/
+}
